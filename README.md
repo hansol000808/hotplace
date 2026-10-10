@@ -1,10 +1,10 @@
-# 국내 핫플 여행지
+# HOTPLACE
 
 전국 6개 권역의 여행지 24곳을 건축·자연·꽃밭·카페 테마로 살펴보는 정적 웹사이트입니다. 여행지 카드를 선택하면 사진, 영상, 주소와 운영 정보 등을 담은 상세 페이지를 볼 수 있습니다.
 
-**Standard Web Technology 프로젝트 · cau-swt2025**
+**[여행지 둘러보기 →](https://hansol000808.github.io/hotplace/)**
 
-- 저장소: [hansol000808/cau-swt2025](https://github.com/hansol000808/cau-swt2025)
+- 저장소: [hansol000808/hotplace](https://github.com/hansol000808/hotplace)
 - 구현: HTML, CSS, JavaScript
 - 기반 템플릿: BootstrapMade의 MyResume
 
@@ -41,8 +41,8 @@
 Git이 설치된 환경에서 다음 명령을 실행합니다. GitHub의 **Code → Download ZIP**으로 내려받아 압축을 풀어도 됩니다.
 
 ```sh
-git clone https://github.com/hansol000808/cau-swt2025.git
-cd cau-swt2025
+git clone https://github.com/hansol000808/hotplace.git
+cd hotplace
 ```
 
 ### 2. 정적 파일 서버 실행
@@ -86,7 +86,7 @@ Google Fonts와 YouTube 등 외부 콘텐츠를 불러오려면 인터넷 연결
 ## 폴더 구조
 
 ```text
-cau-swt2025/
+hotplace/
 ├── index.html                  # 권역별 여행지 목록과 테마 필터
 ├── details_*.html              # 여행지별 상세 페이지 24개
 ├── Readme.txt                  # 원본 템플릿 안내
