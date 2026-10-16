@@ -90,21 +90,17 @@ hotplace/
 ├── index.html                  # 권역별 여행지 목록과 테마 필터
 ├── details_*.html              # 여행지별 상세 페이지 24개
 ├── Readme.txt                  # 원본 템플릿 안내
-├── assets/
-│   ├── css/style.css           # 공통 스타일과 반응형 규칙
-│   ├── js/main.js              # 내비게이션·필터·슬라이더 초기화
-│   ├── img/
-│   │   ├── capital/            # 수도권 이미지
-│   │   ├── gangwon/            # 강원권 이미지
-│   │   ├── chungcheong/        # 충청권 이미지
-│   │   ├── gyeongsang/         # 경상권 이미지
-│   │   ├── jeolla/             # 전라권 이미지
-│   │   └── jeju/               # 제주권 이미지
-│   ├── scss/Readme.txt         # 템플릿 SCSS 안내
-│   └── vendor/                # 외부 라이브러리
-└── forms/
-    ├── Readme.txt
-    └── contact.php             # 템플릿에 포함된 문의 처리 예제
+└── assets/
+    ├── css/style.css           # 공통 스타일과 반응형 규칙
+    ├── js/main.js              # 내비게이션·필터·슬라이더 초기화
+    ├── img/
+    │   ├── capital/            # 수도권 이미지
+    │   ├── gangwon/            # 강원권 이미지
+    │   ├── chungcheong/        # 충청권 이미지
+    │   ├── gyeongsang/         # 경상권 이미지
+    │   ├── jeolla/             # 전라권 이미지
+    │   └── jeju/               # 제주권 이미지
+    └── vendor/                # 외부 라이브러리
 ```
 
 ## 동작 흐름과 주요 코드
@@ -136,7 +132,6 @@ hotplace/
 - 메인 페이지에서 참조하는 여행지 이미지 24개의 원본 용량 합계가 약 24MB이며, 이미지 지연 로딩이 적용되어 있지 않습니다.
 - 권역별 필터 초기화와 상세 페이지 마크업이 반복되어 콘텐츠가 늘면 여러 파일을 함께 수정해야 합니다.
 - 필터와 모바일 메뉴의 키보드 접근성, 사진 대체 텍스트를 보완할 필요가 있습니다.
-- `forms/contact.php`는 현재 메인 화면에 연결된 기능이 아닙니다. 수신 주소가 예제 값이고 필요한 `php-email-form.php`도 포함되어 있지 않아, 문의 전송 기능이 준비된 상태는 아닙니다.
 
 ## 템플릿 및 출처
 
@@ -146,4 +141,3 @@ hotplace/
 - [BootstrapMade 라이선스 안내](https://bootstrapmade.com/license/)
 
 이 문서는 프로젝트 전체에 새로운 라이선스를 부여하지 않습니다. 포함된 라이브러리, 사진, 영상의 출처와 이용 조건은 각 자료의 안내를 기준으로 확인해야 합니다.
-
