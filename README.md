@@ -141,3 +141,4 @@ hotplace/
 - [BootstrapMade 라이선스 안내](https://bootstrapmade.com/license/)
 
 이 문서는 프로젝트 전체에 새로운 라이선스를 부여하지 않습니다. 포함된 라이브러리, 사진, 영상의 출처와 이용 조건은 각 자료의 안내를 기준으로 확인해야 합니다.
+
